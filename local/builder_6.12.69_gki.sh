@@ -6,7 +6,7 @@ SCRIPT_DIR="$(cd "$(dirname "$0")" && pwd)"
 cd "$SCRIPT_DIR"
 
 # ===== 设置自定义参数 =====
-echo "===== 新版米系/通用GKI机型 6.12.68 GKI内核本地编译脚本 By Coolapk@cctv18 ====="
+echo "===== 新版米系/通用GKI机型 6.12.69 GKI内核本地编译脚本 By Coolapk@cctv18 ====="
 echo ">>> 读取用户配置..."
 MANIFEST=${MANIFEST:-oppo+oplus+realme+mi}
 read -p "请输入自定义内核后缀（默认：android16-5-ge7f2a9832757-ab13799791-4k）: " CUSTOM_SUFFIX
